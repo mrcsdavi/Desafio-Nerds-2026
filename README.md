@@ -14,23 +14,6 @@ TECNOLOGIAS UTILIZADAS
 - Banco de dados H2 (em memória)
 - Maven
 
---------------------------------------------------
-ESTRUTURA DO PROJETO
---------------------------------------------------
-br.com.nerds.patrimonio
-├── controller
-│   └── EquipamentoController.java
-├── service
-│   └── EquipamentoService.java
-├── repository
-│   └── EquipamentoRepository.java
-├── model
-│   └── Equipamento.java
-├── exception
-│   └── EquipamentoNaoEncontradoException.java
-│   └── NumeroSerieDuplicadoException.java
-│   └── ApiExceptionHandler.java
-└── PatrimonioApplication.java
 
 --------------------------------------------------
 MODELO DE DADOS – EQUIPAMENTO
