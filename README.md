@@ -35,9 +35,13 @@ POST /equipamentos
 
 Body (JSON):
 {
+
   "numeroSerie": "NERDS-001",
+  
   "nome": "Roteador",
+  
   "tipo": "Wi-Fi"
+
 }
 
 --------------------------------------------------
