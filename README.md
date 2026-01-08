@@ -60,8 +60,11 @@ PUT /equipamentos/numero-de-serie/{numeroSerie}
 
 Body (JSON):
 {
+  
   "nome": "Roteador Principal",
+  
   "tipo": "Wi-Fi 6"
+  
 }
 
 Observação:
@@ -74,7 +77,9 @@ DELETE /equipamentos/numero-de-serie/{numeroSerie}
 
 Resposta:
 {
+  
   "mensagem": "Equipamento com número de série NERDS-001 removido com sucesso"
+
 }
 
 --------------------------------------------------
