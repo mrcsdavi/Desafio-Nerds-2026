@@ -107,7 +107,7 @@ Passos:
 2) Acessar a pasta do projeto
 3) executar em uma IDE com suporte a Java (VSCODE foi a IDE utilizada por mim) 
 
-Em http://localhost:8080
+Após executar, usar no navegador e no postman: http://localhost:8080
 
 --------------------------------------------------
 TESTES
