@@ -34,6 +34,7 @@ ENDPOINTS DISPONÍVEIS
 POST /equipamentos
 
 Body (JSON):
+
 {
 
   "numeroSerie": "NERDS-001",
@@ -80,6 +81,7 @@ O campo numeroSerie não é alterável.
 DELETE /equipamentos/numero-de-serie/{numeroSerie}
 
 Resposta:
+
 {
   
   "mensagem": "Equipamento com número de série NERDS-001 removido com sucesso"
