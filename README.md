@@ -31,7 +31,7 @@ ENDPOINTS DISPONÍVEIS
 --------------------------------------------------
 
 1) PARA CADASTRAR EQUIPAMENTO
-POST /equipamentos
+- POST /equipamentos
 
 Body (JSON):
 
@@ -48,20 +48,20 @@ Body (JSON):
 --------------------------------------------------
 
 2) PARA MOSTRAR TODOS OS EQUIPAMENTOS
-GET /equipamentos
+- GET /equipamentos
 
 --------------------------------------------------
 
 3) PARA BUSCAR POR NÚMERO DE SÉRIE
-GET /equipamentos/numero-de-serie/{numeroSerie}
+- GET /equipamentos/numero-de-serie/{numeroSerie}
 
 Exemplo:
-GET /equipamentos/numero-de-serie/NERDS-001
+- GET /equipamentos/numero-de-serie/NERDS-001
 
 --------------------------------------------------
 
 4) ATUALIZAR EQUIPAMENTO (POR NÚMERO DE SÉRIE)
-PUT /equipamentos/numero-de-serie/{numeroSerie}
+- PUT /equipamentos/numero-de-serie/{numeroSerie}
 
 Body (JSON):
 {
@@ -78,7 +78,7 @@ O campo numeroSerie não é alterável.
 --------------------------------------------------
 
 5) PARA EXCLUIR EQUIPAMENTO (POR NÚMERO DE SÉRIE)
-DELETE /equipamentos/numero-de-serie/{numeroSerie}
+- DELETE /equipamentos/numero-de-serie/{numeroSerie}
 
 Resposta:
 
